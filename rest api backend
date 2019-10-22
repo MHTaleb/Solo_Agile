@@ -1,0 +1,35 @@
+this is my personal workflow using spring in backend and angular in front
+enjoy
+please you can rise an issue for any suggestion
+do pull request if you want to contribute on this
+
+this workflow is originated from jhon thompson and dan vega book about jhipster 
+
+**Backend**
+
+- You would start by designing the architecture for the feature. 
+  You would decide on the plugins and frameworks to use, patterns to follow, and so on.
+  
+- You will be modeling the domain model for the feature depending on the database technology used.
+
+- Then, you would create server-side code and database queries to persist and fetch data from the database.
+
+- Once the data is ready you would implement server-side code for any business logic.
+
+- Then, you would implement an API that can be used to provide data for the presentation over an HTTP connection
+
+- You would write integration tests for the API. (1)
+
+(1) you can start by this step to use TDD or keep it in the end to ensure upgrades code quality
+personnaly I m often switchin this step from first to last depending on the requirement and it level of complexity and 
+degree of change, I always use TDD in service creation, sometimes I go firther to use :: cocumber :: to be sure that my
+rest api terminology is fine but in a solo scrum team this stays a needed plus, we dont have to test everything we should
+focuse on complicated tasks
+
+also if you r using spring I believe that adding swagger support is mandatory this will help you a lot in front tasks
+
+also I believe that if your product is a public/private api you should use cucumber to ensure quality, but if you are 
+making an api for your personal project than this could be optional depending on complexity and your level of expertise
+
+if you need more knowledg about coding best practices and specialy testing wich ensure code quality, there si an easy to
+read book by ippon : clean coding https://fr.ippon.tech/clean-coding/
