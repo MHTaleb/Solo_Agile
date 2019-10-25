@@ -1,0 +1,15 @@
+I m resuming this great article read in this meduim post
+
+https://medium.com/@shairez/angular-testing-tip-the-easiest-way-to-start-your-test-1f7b6c02fd2
+
+in less than 10 lines when testing we have to focus on 3 tasks
+ // this should end in 17 :p
+initialisation : 1 question : I m getting What I believe that I m asking for ( builder, factory, persist then read, marshal unmarshal ) // two long sentence 2 line worth :D
+
+invocation : 1 question : is my logic well respected? try to check that your method is resolving the issue correctly
+
+event : 2 question : thread safety ? how is my the result when there is interaction
+                     observable, messaging ? is an event driven design well serving ? is my focus triggered well ? mouse click :)
+                     
+ok enjoy the end :)
+NB: dont test every thing focus only on ( TDD, or what varies) to detect new release issues :)
